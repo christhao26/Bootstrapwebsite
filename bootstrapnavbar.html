@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My personal bootstrap website!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+
+<!-- section to personalize -->
+<style>
+    
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  button {     
+    color:rebeccapurple;
+    background:rgb(88, 238, 88);
+
+  }
+
+</style>
+
+
+<body style="background: darkturquoise;" >
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+    <div class ="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">Me</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">WHO</a></li>
+          <li><a href="#">WHAT</a></li>
+          <li><a href="#">WHERE</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<div class="container-fluid">
+  <h2 style="text-align: center;">Who I am</h2>
+
+  
+  <!-- image of full stack web, couldnt figure out how to center image without the center tags  -->
+  <img src="https://www.bitdegree.org/tutorials/wp-content/uploads/2018/11/What-Is-A-Full-Stack-Developer-and-Everything-You-Need-to-Know-to-Start.jpg" class="" width="400px" alt="FSD pic"style="display: block; margin-left: auto; margin-right: auto; width: 40%; border-radius: 50%"> 
+
+
+
+  <h3 style="text-align:center" >My name is Chris Thao, I'm a future Full Stack Developer! </h3>
+  <br>
+</div>
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+          nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.
+        </p>
+        <button class="btn">Where</button>
+      </div>
+      <div class="col-md-4">
+        <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <br>
+        <button class="btn">What</button>
+      </div>
+    
+    <div class="col-md-4">
+        <p>
+         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <br>
+      <button class="btn"> Who</button>
+    </div>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+    <p>Bootstrap Theme Made By <a href="#">This wont take you anywhere!</a></p> 
+  </footer>
+
+</body>
+</html>
